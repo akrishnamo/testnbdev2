@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "testnbdev2"
+  site-url: "https://akrishnamo.github.io/testnbdev2"
+  description: "testing nbdev2"
+  repo-branch: main
+  repo-url: "https://github.com/akrishnamo/testnbdev2"
