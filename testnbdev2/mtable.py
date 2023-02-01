@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['table']
 
-# %% ../nbs/00_mtables.ipynb 4
+# %% ../nbs/00_mtables.ipynb 5
 def table(n: int, # a number for which you want multiplication tables
          ):
     for i in range(1,11,1):
