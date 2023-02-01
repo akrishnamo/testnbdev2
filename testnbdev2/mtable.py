@@ -22,7 +22,7 @@ def read_csv(file:str, # file path
     This function read_csv  helps you to read a csv file with given  columns  only, additionally converts into given data types.
     
     Parameters
-    ---------------
+    ----------
     file: file path.
         
     col_dict: dictionary with column name  as keys  and  dtypes  as  values, 
@@ -30,7 +30,7 @@ def read_csv(file:str, # file path
             Note, date  is an special case need to pass a tuple with key "date" and format.
         
     Returns
-    -----------------
+    -------
          function returns pandas dataframe if no errors found, function returns list of errors if errors found
     """
     errors=[]
