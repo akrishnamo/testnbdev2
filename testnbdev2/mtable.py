@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['table']
 
-# %% ../nbs/00_mtables.ipynb 3
+# %% ../nbs/00_mtables.ipynb 4
 def table(n):
     for i in range(1,11,1):
-        print(f"{n} times {n} = {n*i}")
+        print(f"{n} times {i} = {n*i}")
