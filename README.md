@@ -23,16 +23,16 @@ Fill me in please! Don’t forget code examples:
     2
 
 ``` python
-table(5)
+table(6)
 ```
 
-    5 x 1 = 5
-    5 x 2 = 10
-    5 x 3 = 15
-    5 x 4 = 20
-    5 x 5 = 25
-    5 x 6 = 30
-    5 x 7 = 35
-    5 x 8 = 40
-    5 x 9 = 45
-    5 x 10 = 50
+    6 times 1 = 6
+    6 times 2 = 12
+    6 times 3 = 18
+    6 times 4 = 24
+    6 times 5 = 30
+    6 times 6 = 36
+    6 times 7 = 42
+    6 times 8 = 48
+    6 times 9 = 54
+    6 times 10 = 60

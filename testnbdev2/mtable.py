@@ -4,6 +4,7 @@
 __all__ = ['table']
 
 # %% ../nbs/00_mtables.ipynb 4
-def table(n):
+def table(n: int, # a number for which you want multiplication tables
+         ):
     for i in range(1,11,1):
         print(f"{n} times {i} = {n*i}")
