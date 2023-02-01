@@ -6,4 +6,5 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/akrishnamo/testnbdev2',
                 'lib_path': 'testnbdev2'},
   'syms': { 'testnbdev2.core': {'testnbdev2.core.foo': ('core.html#foo', 'testnbdev2/core.py')},
-            'testnbdev2.mtable': {'testnbdev2.mtable.table': ('mtables.html#table', 'testnbdev2/mtable.py')}}}
+            'testnbdev2.mtable': { 'testnbdev2.mtable.read_csv': ('mtables.html#read_csv', 'testnbdev2/mtable.py'),
+                                   'testnbdev2.mtable.table': ('mtables.html#table', 'testnbdev2/mtable.py')}}}

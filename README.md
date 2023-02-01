@@ -36,3 +36,22 @@ table(6)
     6 times 8 = 48
     6 times 9 = 54
     6 times 10 = 60
+
+``` python
+import pandas as pd
+```
+
+``` python
+file_path="https://demo-time-series.s3.us-east-2.amazonaws.com/ex_read_csv1.csv"
+
+col_dict={"date":("date","%d-%m-%Y"),"weight":float,"salary":float}
+
+read_csv(file_path,col_dict)[0]
+```
+
+    NameError: name 'pd' is not defined
+
+``` python
+```
+
+    pandas.core.frame.DataFrame
