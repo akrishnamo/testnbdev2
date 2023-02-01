@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://akrishnamo.github.io',
                 'git_url': 'https://github.com/akrishnamo/testnbdev2',
                 'lib_path': 'testnbdev2'},
-  'syms': {'testnbdev2.core': {'testnbdev2.core.foo': ('core.html#foo', 'testnbdev2/core.py')}}}
+  'syms': { 'testnbdev2.core': {'testnbdev2.core.foo': ('core.html#foo', 'testnbdev2/core.py')},
+            'testnbdev2.mtable': {'testnbdev2.mtable.table': ('mtables.html#table', 'testnbdev2/mtable.py')}}}
