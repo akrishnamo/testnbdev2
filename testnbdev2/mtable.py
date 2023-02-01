@@ -21,14 +21,18 @@ def read_csv(file:str, # file path
     """
     This function read_csv  helps you to read a csv file with given  columns  only,
     additionally converts into given data types.
+    
     Inputs:
-    file -----------> file path.
-    col_dict -----------> dictionary with column name  as keys  and  dtypes  as  values, 
-                          ex:d={"colmn_name":float,"colmn_name":int} ,for date {"colmn_name":("date","%Y-%m-%d")}.
-                          Note: date  is an special case need to pass a tuple with key "date" and format.
+        file -----------> file path.
+        
+        col_dict -----------> dictionary with column name  as keys  and  dtypes  as  values, 
+                              ex:d={"colmn_name":float,"colmn_name":int} ,for date {"colmn_name":("date","%Y-%m-%d")}.
+                              Note: date  is an special case need to pass a tuple with key "date" and format.
     Output:
-     function returns pandas dataframe if no errors found,
-     function returns list of errors if errors found
+         function returns pandas dataframe if no errors found,
+         
+         function returns list of errors if errors found
+         
     """
     errors=[]
     emptydf=pd.DataFrame()
