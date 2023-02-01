@@ -49,9 +49,78 @@ col_dict={"date":("date","%d-%m-%Y"),"weight":float,"salary":float}
 read_csv(file_path,col_dict)[0]
 ```
 
-    NameError: name 'pd' is not defined
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-``` python
-```
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
-    pandas.core.frame.DataFrame
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>weight</th>
+      <th>salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-01-10</td>
+      <td>44.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-01-11</td>
+      <td>42.0</td>
+      <td>4000.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020-01-12</td>
+      <td>52.0</td>
+      <td>3000.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020-01-13</td>
+      <td>55.0</td>
+      <td>5000.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-01-14</td>
+      <td>32.0</td>
+      <td>7000.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2020-01-15</td>
+      <td>35.0</td>
+      <td>5500.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2020-01-16</td>
+      <td>41.0</td>
+      <td>4500.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2020-01-17</td>
+      <td>47.0</td>
+      <td>6500.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
