@@ -48,3 +48,9 @@ col_dict={"date":("date","%d-%m-%Y"),"weight":float,"salary":float}
 
 read_csv(file_path,col_dict, 10)[0]
 ```
+
+``` python
+6+7
+```
+
+    13
