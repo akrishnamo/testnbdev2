@@ -7,13 +7,6 @@ __all__ = ['get_now_date2']
 import datetime
 import anvil.server
 
-with open('../license.txt') as file:
-    key = file.read()
-
-anvil.server.connect(key)
-
-# %% ../nbs/01_anvilcode.ipynb 5
-#| export
 
 
 # %% ../nbs/01_anvilcode.ipynb 6

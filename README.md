@@ -63,4 +63,4 @@ assert 2== (2*1)
 get_now_date2()
 ```
 
-    'Ananth says  UTC time is 2023-05-08 16:35:39.695902'
+    'Ananth says  UTC time is 2023-05-08 16:43:20.516221'
