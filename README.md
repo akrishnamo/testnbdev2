@@ -54,3 +54,13 @@ read_csv(file_path,col_dict, 10)[0]
 ```
 
     13
+
+``` python
+assert 2== (2*1)
+```
+
+``` python
+get_now_date2()
+```
+
+    'Ananth says  UTC time is 2023-05-08 16:35:39.695902'
