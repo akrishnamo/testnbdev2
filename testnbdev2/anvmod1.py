@@ -7,8 +7,6 @@ __all__ = ['get_now_date2']
 import datetime
 import anvil.server
 
-
-
 # %% ../nbs/01_anvilcode.ipynb 6
 @anvil.server.callable
 def get_now_date2():
