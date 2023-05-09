@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "testnbdev2",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "testnbdev2",
+    "section": "Install",
+    "text": "Install\npip install testnbdev2"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "testnbdev2",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\ntable(6)\n\n6 times 1 = 6\n6 times 2 = 12\n6 times 3 = 18\n6 times 4 = 24\n6 times 5 = 30\n6 times 6 = 36\n6 times 7 = 42\n6 times 8 = 48\n6 times 9 = 54\n6 times 10 = 60\n\n\n\nimport pandas as pd\n\n\nfile_path=\"https://demo-time-series.s3.us-east-2.amazonaws.com/ex_read_csv1.csv\"\n\ncol_dict={\"date\":(\"date\",\"%d-%m-%Y\"),\"weight\":float,\"salary\":float}\n\nread_csv(file_path,col_dict, 10)[0]\n\n\n6+7\n\n13\n\n\n\nassert 2== (2*1)\n\n\nget_now_date2()\n\n'Ananth says  UTC time is 2023-05-09 06:44:47.365584'"
+  },
+  {
+    "objectID": "anvilcode.html",
+    "href": "anvilcode.html",
+    "title": "Anvil Code",
+    "section": "",
+    "text": "!pip install anvil-uplink --q\n\n\n[notice] A new release of pip available: 22.3.1 -&gt; 23.1.2\n[notice] To update, run: python.exe -m pip install --upgrade pip\n\n\n\n!pip install python-dotenv --q\n\n\n[notice] A new release of pip available: 22.3.1 -&gt; 23.1.2\n[notice] To update, run: python.exe -m pip install --upgrade pip\n\n\n\nsource\n\nget_now_date2\n\n get_now_date2 ()"
+  },
+  {
+    "objectID": "mtables.html",
+    "href": "mtables.html",
+    "title": "Multiplication Tables",
+    "section": "",
+    "text": "!pip install cerberus --q\n\n\nimport matplotlib.pyplot as plt\n\n\ns=plt.plot(range(10), [i*i for i in range(10)])\n\n\n\n\n\nsource\n\ntable\n\n table (n:int)\n\n\n\n\n\nType\nDetails\n\n\n\n\nn\nint\na number for which you want multiplication tables\n\n\n\n\ntable(4)\n\n4 times 1 = 4\n4 times 2 = 8\n4 times 3 = 12\n4 times 4 = 16\n4 times 5 = 20\n4 times 6 = 24\n4 times 7 = 28\n4 times 8 = 32\n4 times 9 = 36\n4 times 10 = 40\n\n\n/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/site-packages/fastcore/docscrape.py:225: UserWarning: Unknown section Input\n  else: warn(msg)\n\nsource\n\n\nsimple_validator\n\n simple_validator (df:pandas.core.frame.DataFrame, schema:dict)\n\nsimple_validator is a simple function to validate a given dataframe with given schema. data frame rows converted into list of dictioners and validates with respect to the given schema and gives output a error dictionary.\n\n\n\n\nType\nDetails\n\n\n\n\ndf\nDataFrame\npandas dataframe wth data,\n\n\nschema\ndict\npython dictionary with validation schema,\n\n\nReturns\ndict\npython dicionary with validation errors\n\n\n\n\nsource\n\n\ncheck_file_errors\n\n check_file_errors (file:str)\n\nchecks if the given csv file is available and readable Parameters ———- file: path/location of file\n\n\n\n\nType\nDetails\n\n\n\n\nfile\nstr\n\n\n\nReturns\ndict\ndictionary of errors in accessing file\n\n\n\n\nsource\n\n\ncreate_cerberus_schema\n\n create_cerberus_schema (col_dict)\n\ntakes a column dictionary and returns a schema file to be used in validation with the cerberus validator\n\nsource\n\n\nread_csv\n\n read_csv (file:str, col_dict:dict, n_max:int)\n\nThis function read_csv helps you to read a csv file with given columns only, additionally converts into given data types.\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\nfile\nstr\nfile path\n\n\ncol_dict\ndict\ndictionary with column name as keys and dtypes as values\n\n\nn_max\nint\nmaximum number of errors allowed to accepting the validataion\n\n\nReturns\ntuple\na pandas dataframe and an error list"
+  }
+]
